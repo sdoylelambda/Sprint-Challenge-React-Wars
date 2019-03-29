@@ -37,17 +37,13 @@ body, html {
   max-height: 250px;
   margin: 2rem;
   padding: 1rem;
-  min-width: 500px;
+  align-content: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-@media(min-width:500px) {
-  .character-card {
-    color:red;
-  }
-}
 
 h1 {
-  color: red;
+  color: sandybrown;
   font-size: 2.5rem;
+  background-color: white;
 }

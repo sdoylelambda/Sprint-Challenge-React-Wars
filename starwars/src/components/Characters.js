@@ -13,6 +13,8 @@ function Characters(props) {
                     <strong> Gender:</strong> {props.characterFromMap.gender}
                     <strong> Hair Color:</strong> {props.characterFromMap.hair_color}
                     <strong> Eye Color:</strong> {props.characterFromMap.eye_color}
+                    <strong> Starships:</strong> {props.characterFromMap.starships}
+                    <strong> Homeworld:</strong> {props.characterFromMap.homeworld}
                 </p>
             </div>
         </div>
