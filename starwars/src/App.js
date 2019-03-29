@@ -37,6 +37,7 @@ class App extends Component {
     return (
       <div className="App">
          <StarwarsCharacters characterProp={this.state.starwarsChars} />
+         <img scr="sw-bg.jpg"></img>
       </div>
     );
   }
