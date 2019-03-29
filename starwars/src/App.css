@@ -6,3 +6,27 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+body, html {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ align-content: center;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+
+}
+
+.character-info {
+  color: green;
+  background: white;
+}
+
+.character-card {
+
+}

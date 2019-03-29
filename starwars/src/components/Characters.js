@@ -5,12 +5,12 @@ function Characters(props) {
         <div className="character-card">
 
             <div className="character-info">
-                <h3>{props.characterProp.name}</h3>
+                <h3>{props.characterFromMap.name}</h3>
                 <p>
-                    <strong>birth_year:</strong> {props.characterProp.birth_year}
-                    <strong>height:</strong> {props.characterProp.height}
-                    <strong>gender:</strong> {props.characterProp.gender}
-                    <strong>hair_color:</strong> {props.characterProp.hair_color}
+                    <strong>birth_year:</strong> {props.characterFromMap.birth_year}
+                    <strong>height:</strong> {props.characterFromMap.height}
+                    <strong>gender:</strong> {props.characterFromMap.gender}
+                    <strong>hair_color:</strong> {props.characterFromMap.hair_color}
                 </p>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+//import './components/Starwars.css';
 import StarwarsCharacters from './components/StarwarsCharacters';
 import ListForm from "./components/ListForm";
 
@@ -35,7 +36,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <StarwarsCharacters />
+         <StarwarsCharacters characterProp={this.state.starwarsChars} />
       </div>
     );
   }
