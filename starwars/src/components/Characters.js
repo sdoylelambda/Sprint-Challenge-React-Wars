@@ -7,10 +7,12 @@ function Characters(props) {
             <div className="character-info">
                 <h3>{props.characterFromMap.name}</h3>
                 <p>
-                    <strong>birth_year:</strong> {props.characterFromMap.birth_year}
-                    <strong>height:</strong> {props.characterFromMap.height}
-                    <strong>gender:</strong> {props.characterFromMap.gender}
-                    <strong>hair_color:</strong> {props.characterFromMap.hair_color}
+                    <strong> Birth Year:</strong> {props.characterFromMap.birth_year}
+                    <strong> Height:</strong> {props.characterFromMap.height}
+                    <strong> Mass:</strong> {props.characterFromMap.mass}
+                    <strong> Gender:</strong> {props.characterFromMap.gender}
+                    <strong> Hair Color:</strong> {props.characterFromMap.hair_color}
+                    <strong> Eye Color:</strong> {props.characterFromMap.eye_color}
                 </p>
             </div>
         </div>
