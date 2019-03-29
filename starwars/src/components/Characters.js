@@ -7,8 +7,10 @@ function Characters(props) {
             <div className="character-info">
                 <h3>{props.characterProp.name}</h3>
                 <p>
-                    <strong>Identity:</strong> {props.characterProp.identity}
-
+                    <strong>birth_year:</strong> {props.characterProp.birth_year}
+                    <strong>height:</strong> {props.characterProp.height}
+                    <strong>gender:</strong> {props.characterProp.gender}
+                    <strong>hair_color:</strong> {props.characterProp.hair_color}
                 </p>
             </div>
         </div>
