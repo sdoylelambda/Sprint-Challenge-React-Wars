@@ -4,21 +4,29 @@ class ListForm extends React.Component {
   constructor() {
     super();
     this.state = {
-      item: ""
+        name: "",
+        birth_year: "",
+        height: "",
+        gender: "",
+        hair_color: "",
     };
   }
 
-  handleChanges = e => {
-    this.setState({ [e.target.name]: e.target.value });
+   handleChange = event => {
+    this.setState({ [event.target.name]: event.target.value });
   };
 
-  submitItem = e => {
+  handleSubmit = e => {
+    console.log(e);
     e.preventDefault();
-    // take the item off of state
-    // send that item to a function defined on App.js
-    this.props.addItem(this.state.item);
-    // reset the state
-    this.setState({ item: "" });
+
+    this.state = {
+        name: "",
+        birth_year: "",
+        height: "",
+        gender: "",
+        hair_color: "",
+    };
   };
 
   render() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Characters from './Characters';
-import ListFrom from './ListForm';
+import ListForm from './ListForm';
 
 const starwarsChars = {
     name: 'Luke Skywalker',
@@ -11,6 +11,7 @@ class StarwarsCharacters extends React.Component {
     constructor() {
         super();
         this.state = {
+            // characterList: ListForm,
             characterList: starwarsChars,
             name: ''
         };
@@ -40,7 +41,7 @@ class StarwarsCharacters extends React.Component {
 
             <div className="class-list">
                 {/* <Characters characterProp={lukeSkywalker} /> */}
-                {this.state.characterList.map((characterFromMap, index) => (
+                {this.characterList.map((characterFromMap, index) => (
                     <Characters key={index} characterProp={characterFromMap} />
                 ))}
             </div>
